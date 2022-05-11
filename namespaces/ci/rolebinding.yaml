@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: system:image-puller-dev
-  namespace: ci
+  namespace: cp4i
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -16,7 +16,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: system:image-puller-staging
-  namespace: ci
+  namespace: cp4i
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -30,7 +30,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: system:image-puller-prod
-  namespace: ci
+  namespace: cp4i
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole

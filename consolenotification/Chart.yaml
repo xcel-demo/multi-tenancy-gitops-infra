@@ -4,7 +4,7 @@ description: Chart to create a ConsoleNotification resource in an OpenShift clus
 type: application
 version: 0.2.0
 appVersion: 1.16.0
-dependencies:
+dependencp4ies:
   - name: ocp-console-notification
     version: 0.2.0
     repository: https://cloud-native-toolkit.github.io/toolkit-charts/
